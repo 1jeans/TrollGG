@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-    <title>Insert title here</title>
+    <title>커밋테스트</title>
     <style>
         a{
             text-decoration: none;
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div style="display: flex; justify-content: space-between; border-bottom:">
+    <div style="display: flex; justify-content: space-between;">
         <div style="font-size: 12px;">소환사의 협곡에 총 3,002,570명의 소환사가 있습니다.</div>
         <div style="font-size: 12px; color: gray;">랭킹은 브론즈 이상 소환사만 표시, 랭킹은 주기적으로 갱신됩니다.</div>
     </div>
