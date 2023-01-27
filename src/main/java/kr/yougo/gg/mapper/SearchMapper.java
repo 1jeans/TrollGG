@@ -1,6 +1,6 @@
-package kr.troll.gg.mapper;
+package kr.yougo.gg.mapper;
 
-import kr.troll.gg.dto.Summoner;
+import kr.yougo.gg.dto.Summoner;
 
 public interface SearchMapper {
 	public int summonerInsert(Summoner sm);

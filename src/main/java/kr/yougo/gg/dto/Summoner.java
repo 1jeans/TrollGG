@@ -1,4 +1,4 @@
-package kr.troll.gg.dto;
+package kr.yougo.gg.dto;
 
 public class Summoner {
 	private int profileIconId;

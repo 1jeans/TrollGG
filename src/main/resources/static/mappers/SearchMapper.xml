@@ -2,15 +2,15 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="kr.troll.gg.mapper.SearchMapper">
+<mapper namespace="kr.yougo.gg.mapper.SearchMapper">
 
-	<insert id="summonerInsert" parameterType="kr.troll.gg.dto.Summoner">
+	<insert id="summonerInsert" parameterType="kr.yougo.gg.dto.Summoner">
 		INSERT INTO summoner
 		(profileIconId, name, puuid, summonerLevel, revisionDate, id, accountId)
 		VALUES
 		(#{profileIconId},#{name},#{puuid},#{summonerLevel},#{revisionDate},#{id},#{accountId})
 	</insert>
-	<select id="summonerSelect" parameterType="String" resultType="kr.troll.gg.dto.Summoner">
+	<select id="summonerSelect" parameterType="String" resultType="kr.yougo.gg.dto.Summoner">
 		SELECT
 			*
 		FROM

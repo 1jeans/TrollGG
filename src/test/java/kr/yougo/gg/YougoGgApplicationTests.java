@@ -1,10 +1,10 @@
-package kr.troll.gg;
+package kr.yougo.gg;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrollGgApplicationTests {
+class YougoGgApplicationTests {
 
 	@Test
 	void contextLoads() {

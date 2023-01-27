@@ -1,4 +1,4 @@
-package kr.troll.gg;
+package kr.yougo.gg;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
